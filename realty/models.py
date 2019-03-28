@@ -9,5 +9,13 @@ class Clazz(models.Model):
     cname = models.CharField(max_length=60)
 
 
-class Han(models.Model):
-    hname = models.CharField(max_length=60)
+
+class h(models.Model):
+    tname = models.CharField(max_length=60)
+
+
+class Hello(models.Model):
+    hname = models.CharField(max_length=30)
+    age = models.CharField(max_length=1)
+
+
