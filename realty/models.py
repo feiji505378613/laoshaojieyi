@@ -9,3 +9,5 @@ class Clazz(models.Model):
     cname = models.CharField(max_length=60)
 
 
+class tang(models.Model):
+    tname = models.CharField(max_length=60)
