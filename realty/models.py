@@ -13,6 +13,4 @@ class Clazz(models.Model):
 class tang(models.Model):
     tname = models.CharField(max_length=60)
 
-class Han(models.Model):
-    hname = models.CharField(max_length=60)
 
