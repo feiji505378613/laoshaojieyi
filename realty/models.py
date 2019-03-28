@@ -16,5 +16,6 @@ class h(models.Model):
 
 class Hello(models.Model):
     hname = models.CharField(max_length=30)
+    age = models.CharField(max_length=1)
 
 
